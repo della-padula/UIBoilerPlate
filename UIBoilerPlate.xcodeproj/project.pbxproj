@@ -17,6 +17,7 @@
 		DE4B194F24124ED0007FD285 /* UIBoilerPlateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B194E24124ED0007FD285 /* UIBoilerPlateUITests.swift */; };
 		DE9F3CA324135ACB009DA17F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9F3CA224135ACB009DA17F /* UIColor+Extension.swift */; };
 		DE9F3CA524135AEA009DA17F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9F3CA424135AEA009DA17F /* UIView+Extension.swift */; };
+		DE9F3CA8241376CD009DA17F /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE9F3CA7241376CD009DA17F /* SFProText-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DE4B195024124ED0007FD285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE9F3CA224135ACB009DA17F /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		DE9F3CA424135AEA009DA17F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		DE9F3CA7241376CD009DA17F /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		DE4B192824124ECF007FD285 /* UIBoilerPlate */ = {
 			isa = PBXGroup;
 			children = (
+				DE9F3CA6241376B8009DA17F /* Fonts */,
 				DE4B192924124ECF007FD285 /* AppDelegate.swift */,
 				DE4B192D24124ECF007FD285 /* ViewController.swift */,
 				DE4B192F24124ECF007FD285 /* Main.storyboard */,
@@ -132,6 +135,14 @@
 				DE4B195024124ED0007FD285 /* Info.plist */,
 			);
 			path = UIBoilerPlateUITests;
+			sourceTree = "<group>";
+		};
+		DE9F3CA6241376B8009DA17F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DE9F3CA7241376CD009DA17F /* SFProText-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 				DE4B193924124ED0007FD285 /* LaunchScreen.storyboard in Resources */,
 				DE4B193624124ED0007FD285 /* Assets.xcassets in Resources */,
 				DE4B193124124ECF007FD285 /* Main.storyboard in Resources */,
+				DE9F3CA8241376CD009DA17F /* SFProText-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
