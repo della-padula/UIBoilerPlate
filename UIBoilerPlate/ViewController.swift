@@ -35,11 +35,6 @@ class ViewController: UIViewController {
         let deptName = "컴퓨터학부"
         lblDeptName.text = deptName.replacingOccurrences(of: " ", with: "\n")
         
-        print("lines : \(deptName.split(separator: " ").count)")
-        
-        // 36 + 60
-        // 36 + 28
-        
         if deptName.split(separator: " ").count > 1 {
             lblDeptName.font = UIFont(name: lblDeptName.font.fontName, size: 27)
             lblDeptNameHeight.constant = 60
@@ -55,12 +50,6 @@ class ViewController: UIViewController {
             topSection.frame.size.height = 193
             topSectionHeight.constant = 215
         }
-        
-        print("lblDeptNameHeight : \(lblDeptNameHeight.constant)")
-        print("topBackgroundSectionHeight : \(topBackgroundSectionHeight.constant)")
-        print("topSectionHeight : \(topSectionHeight.constant)")
-        
-        print("topSection.frame.height : \(topSection.frame.height)")
         
         topSection.setGradientBackground(colorTop: UIColor(hex: "#02d6f0", alpha: 1.0), colorBottom: UIColor(hex: "#01addd", alpha: 1.0))
         topSection.roundCorners(corners: [.bottomLeft, .bottomRight], radius: 50)
